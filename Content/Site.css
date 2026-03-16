@@ -1,0 +1,238 @@
+﻿body {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+table {
+    width:100%;
+    text-align: left;
+    position: relative;
+    border-collapse: collapse;
+}
+/*tr:hover {
+    background-color: blue;
+    color:white;
+}*/
+th, td {
+    padding: 0.25rem;
+    width:auto;
+}
+
+th {
+    background: lightgray;
+    color: black;
+    border: 1px solid black;
+    position: sticky;
+    top: 0; /* Don't forget this, required for the stickiness */
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
+td {
+    width: auto;
+    border: 1px solid black;
+    word-wrap: break-word;
+}
+
+Resources
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Set padding to display errors that occur during databinding */
+.padding-error {
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .nofloat {
+        float: none;
+        padding: 10px 15px;
+    }
+}
+
+.Alarmxcontextmenu {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    overflow: hidden;
+    border: 1px solid #CCC;
+    white-space: nowrap;
+    font-family: sans-serif;
+    background: #fff;
+    color: #333;
+    border-radius: 5px;
+    padding: 0;
+}
+
+    /* Each of the items in the list */
+.Alarmxcontextmenu li {
+    padding: 8px 12px;
+    cursor: pointer;
+    list-style-type: none;
+    transition: all .3s ease;
+    user-select: none;
+}
+
+.Alarmxcontextmenu li:hover {
+    background-color: #DEF;
+}
+.highlighted ,.menucell {
+  background-color: cornflowerblue;
+  color:white;
+  
+}
+.menutable tr td {
+    text-align: center;
+    border: none;
+}
+
+.nav_maintabs {
+    visibility: hidden;
+    
+}
+
+.pie_chart {
+    width: 50% !important;
+    height:50% !important;
+    margin: 1px;
+    display: inline-block;
+}
+
+.count-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+}
+
+.count-box {
+    flex: 1;
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px 20px;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+    .count-box:hover {
+        transform: translateY(-5px);
+    }
+
+.count-number {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.count-label {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Background colors */
+.red-bg {
+    background-color: #e74c3c;
+}
+
+.amber-bg {
+    background-color: #f39c12;
+}
+
+.green-bg {
+    background-color: #2ecc71;
+}
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+    .styled-table th, .styled-table td {
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        text-align: left;
+    }
+
+    .styled-table th {
+        background-color: #007ACC;
+        color: white;
+        cursor: pointer;
+    }
+
+    .styled-table tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    .styled-table tr:hover {
+        background-color: #f1f1f1;
+    }
+
+.labelrad {
+    font-weight: 500;
+    font-size: 1rem;
+   
+}
+
+
+radio {
+    font-weight: 620;
+    font-size: .8rem;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 5px; /* Reduces the space between items */
+}
+
+    .navbar-nav .nav-item:last-child {
+        margin-right: 0; /* Remove the right margin from the last item */
+    }
+
+
+.dropdown-item {
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+    .dropdown-item:hover {
+        background-color: #007bff; /* Bootstrap primary color */
+        color: white;
+        border-radius: 5px;
+    }
+
+    .dropdown-item:focus, .dropdown-item:active {
+        background-color: #0056b3; /* Darker shade on focus/active */
+        color: white;
+        border-radius: 5px;
+    }
+
+.row-green
+{
+    background-color: #13f54984 !important; /* Light green */
+}
+
+.row-amber {
+    background-color: #ffc107  !important; /* amber */
+}
+
+.row-red {
+    background-color: #eb2846e5 !important; /* red */
+}
