@@ -536,6 +536,7 @@
     <Content Include="Content\bootstrap.esm.min.js.map" />
     <Content Include="Content\bootstrap.js.map" />
     <Content Include="Content\bootstrap.min.js.map" />
+    <Content Include="libman.json" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
