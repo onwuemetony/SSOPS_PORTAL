@@ -195,7 +195,7 @@ var chartValues = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(DirectCa
                 <th>Time</th>
                 <th>Group</th>
                 <th>Name</th>
-                <th>Average(%)</th>
+                <th>Averages(%)</th>
                 <th>Maximum(%)</th>
                 <th>Max ID</th>
             </tr>
