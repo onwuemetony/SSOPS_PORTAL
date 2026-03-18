@@ -55,6 +55,7 @@ Partial Public Class Startup
         ' Configure the sign in cookie
         ' OnValidateIdentity enables the application to validate the security stamp when the user logs in.
         ' This is a security feature which is used when you change a password or add an external login to your account.
+
         app.UseCookieAuthentication(New CookieAuthenticationOptions() With {
             .AuthenticationType = DefaultAuthenticationTypes.ApplicationCookie,
             .Provider = New CookieAuthenticationProvider() With {
