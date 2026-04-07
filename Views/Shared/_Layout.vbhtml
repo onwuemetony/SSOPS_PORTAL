@@ -13,7 +13,7 @@
 <body style="display: flex; background-color: white; min-height: 100vh;min-width:100vw; ">
     <div class="navbar navbar-dark bg-dark fixed-top " style="padding-top:0px; padding-bottom: 0px;min-height: 50px; height: 50px">
         <div class="navbar-brand">
-            <img src="~/images/logo.png" style="height: 35px">
+            <img src="~/images/GoldCrestlogo.png" style="height: 35px">
 
             @************************* TOP MENU BAR *********************@
             @*=============================================================*@
@@ -65,7 +65,7 @@
     </div>
 
     <div class="navbar fixed-bottom bg-dark" style="padding-top:0px; padding-bottom: 0px;min-height: 25px; height: 25px">
-        <div class="container-fluid justify-content-center"><p style=" color:white;"> Developed by Switch Nigeria - build 20210831</p></div>
+        <div class="container-fluid justify-content-center"><p style=" color:white;"> Developed by Anthony Onwueme - build 20260322</p></div>
     </div>
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
